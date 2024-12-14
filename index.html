@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gracias, Amiga</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            color: #ff6f61;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .open-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .open-btn:hover {
+            background-color: #e05550;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Gracias, Ana!</h1>
+        <button class="open-btn" onclick="goToLetter()">Abrir la carta</button>
+    </div>
+
+    <script>
+        function goToLetter() {
+            window.location.href = "carta.html";
+        }
+    </script>
+</body>
+</html>
